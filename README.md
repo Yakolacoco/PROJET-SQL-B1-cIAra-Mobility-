@@ -47,7 +47,7 @@ Pour tester nos requêtes sur votre instance PostgreSQL :
 
 1.  Clonez ce dépôt :
     ```bash
-    git clone [https://github.com/Yakolacoco/PROJET-SQL-B1-cIAra-Mobility-]
+    git clone [[LIEN_DE_VOTRE_DEPOT](https://github.com/Yakolacoco/PROJET-SQL-B1-cIAra-Mobility-)]
     ```
 2.  Exécutez le script `00_installation_db.sql` dans votre outil (pgAdmin ou psql) pour créer l'environnement.
 3.  Ouvrez les fichiers des quêtes 1 à 5 pour consulter les solutions aux besoins métier.
