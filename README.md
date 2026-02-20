@@ -1,61 +1,39 @@
 #  PROJET SQL B1 - cIAra Mobility
 
-##  Présentation du Projet
-Ce projet a été réalisé dans le cadre de notre formation B1. Nous occupons le rôle de **Techniciens Data Juniors** pour l'entreprise fictive **cIAra Mobility**, spécialisée dans la location de véhicules électriques partagés (voitures, scooters, trottinettes et vélos) dans plusieurs grandes villes françaises.
+##  À propos de mon projet
+Bienvenue sur mon dépôt GitHub ! Nous avons réalisé ce projet dans le cadre de notre formation B1. 
+Pour ce cas pratique, nous nous sommes mis dans la peau d'un **Technicien Data Junior** chez **cIAra Mobility**, une entreprise de location de véhicules électriques partagés.
 
-**Objectif :** Interroger une base de données PostgreSQL pour répondre à des besoins métier concrets, allant de la simple consultation de stock à l'analyse de l'activité des clients.
+Notre mission globale a été d'explorer et d'interroger une base de données existante pour répondre aux besoins concrets de l'entreprise (gestion des stocks de véhicules, analyse des locations, suivi des clients).
 
----
+##  Notre trinôme
+Bien que ce dépôt retrace notre avancement, nous avons réalisé ce travail en collaboration avec :
+- **[Lucas Vauclin, Mac Sorel]**
+- (Moi-même : **[Thollé Romain]**)
 
-##  Membres du Binôme
-- **[NOM Prénom 1]**
-- **[NOM Prénom 2]**
+##  Ce que nous avons fait concrètement
+Tout au long de ce projet, nous avons travaillé sur plusieurs axes :
+1. **Compréhension de la BDD :** Nous avons analysé la structure des 4 tables (`vehicule`, `station`, `client`, `location`) et compris comment elles étaient reliées entre elles (clés primaires et étrangères).
+2. **Rédaction des requêtes SQL :** Nous avons écrit, testé et commenté nos requêtes sous PostgreSQL (de la simple sélection aux jointures et fonctions d'agrégation).
+3. **Travail collaboratif :** Nous avons utilisé Git et GitHub pour versionner notre code, en faisant des commits réguliers pour prouver notre avancement et synchroniser notre travail.
+4. **Préparation à l'oral :** Nous avons documenté chaque requête pour être capable d'en expliquer la logique métier lors de notre soutenance du 26 février.
 
----
+##  Comment nous avons structuré mon code
+Pour que notre travail soit facile à lire et à évaluer, nous avons découpé les scripts en 5 fichiers correspondants aux 5 quêtes demandées :
 
-##  Technologies Utilisées
-- **SGBD :** PostgreSQL
+* `01_quete_decouverte.sql` : Les requêtes de base pour explorer les données (`SELECT`, `WHERE`).
+* `02_quete_tris_filtres.sql` : La logique pour trier et affiner les recherches (`ORDER BY`).
+* `03_quete_jointures.sql` : Les requêtes pour croiser les données entre plusieurs tables (`JOIN`).
+* `04_quete_agregation.sql` : Les calculs de statistiques métiers (`COUNT`, `AVG`, `GROUP BY`).
+* `05_quete_cas_metier.sql` : Les requêtes les plus avancées pour l'aide à la décision (`HAVING`, `LEFT JOIN`).
+
+##  Outils et Technologies
+- **SGBD :** PostgreSQL (via pgAdmin / Terminal)
 - **Langage :** SQL
-- **Outils :** pgAdmin 4 / Terminal PostgreSQL
-- **Versionning :** GitHub
+- **Versionning :** Git & GitHub
 
----
-
-##  Structure du Dépôt
-Le projet est organisé par "Quêtes" pour faciliter la lecture et l'évaluation :
-
-* `00_installation_db.sql` : Script de création des tables et insertion des données de test.
-* `01_quete_decouverte.sql` : Requêtes de base (SELECT, WHERE).
-* `02_quete_tris_filtres.sql` : Organisation des données (ORDER BY).
-* `03_quete_jointures.sql` : Relations entre les tables (JOIN).
-* `04_quete_agregation.sql` : Statistiques et calculs (COUNT, AVG, GROUP BY).
-* `05_quete_cas_metier.sql` : Requêtes avancées (HAVING, LEFT JOIN).
-
----
-
-##  Schéma de la Base de Données
-La base de données est composée de 4 tables principales :
-1.  **vehicule** : Stocke les informations techniques et la localisation des engins.
-2.  **station** : Liste les points de retrait et de dépôt des véhicules.
-3.  **client** : Informations personnelles des utilisateurs.
-4.  **location** : Table de liaison enregistrant chaque trajet (qui, quoi, où, quand).
-
----
-
-##  Installation et Test
-Pour tester nos requêtes sur votre instance PostgreSQL :
-
-1.  Clonez ce dépôt :
-    ```bash
-    git clone [https://github.com/Yakolacoco/PROJET-SQL-B1-cIAra-Mobility-]
-    ```
-2.  Exécutez le script `00_installation_db.sql` dans votre outil (pgAdmin ou psql) pour créer l'environnement.
-3.  Ouvrez les fichiers des quêtes 1 à 5 pour consulter les solutions aux besoins métier.
-
----
-
-##  Points Clés de l'Analyse
-Lors de ce projet, nous avons particulièrement veillé à :
-* **La gestion des valeurs nulles :** Utilisation de `LEFT JOIN` pour les locations en cours (qui n'ont pas encore de station d'arrivée).
-* **La clarté du code :** Chaque requête est commentée pour expliquer la logique métier derrière les mots-clés SQL utilisés.
-* **La rigueur des données :** Mise en place de clés primaires (`PRIMARY KEY`) et étrangères (`FOREIGN KEY`) pour garantir l'intégrité des données de cIAra Mobility.
+##  Test de notre travail
+Si vous souhaitez exécuter nos requêtes :
+1. Clonez ce dépôt sur votre machine : `git clone [https://github.com/Yakolacoco/PROJET-SQL-B1-cIAra-Mobility-]`
+2. Connectez-vous à la base de données `ciara_mobility`.
+3. Ouvrez mes fichiers `.sql` et exécutez les requêtes !
