@@ -7,9 +7,8 @@ Pour ce cas pratique, nous nous sommes mis dans la peau d'un **Technicien Data J
 Notre mission a été d'explorer et d'interroger une base de données existante pour répondre aux besoins concrets de l'entreprise (gestion des stocks de véhicules, analyse des locations, suivi des clients).
 
 ##  Notre trinôme
-Bien que ce dépôt retrace notre avancement, nous avons réalisé ce travail en collaboration avec :
-- **[Lucas Vauclin, Mac Sorel]**
-- (Moi-même : **[Thollé Romain]**)
+Bien que ce dépôt retrace notre avancement, nous avons réalisé ce travail en équipe avec :
+- **[Lucas Vauclin, Mac Sorel et Thollé Romain]**
 
 ##  Ce que nous avons fait concrètement
 Tout au long de ce projet, nous avons travaillé sur plusieurs axes :
