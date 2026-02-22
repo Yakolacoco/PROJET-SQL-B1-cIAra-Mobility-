@@ -1,10 +1,10 @@
 #  PROJET SQL B1 - cIAra Mobility
 
 ##  À propos de mon projet
-Bienvenue sur mon dépôt GitHub ! Nous avons réalisé ce projet dans le cadre de notre formation B1. 
+Nous avons réalisé ce projet dans le cadre de notre formation B1. 
 Pour ce cas pratique, nous nous sommes mis dans la peau d'un **Technicien Data Junior** chez **cIAra Mobility**, une entreprise de location de véhicules électriques partagés.
 
-Notre mission globale a été d'explorer et d'interroger une base de données existante pour répondre aux besoins concrets de l'entreprise (gestion des stocks de véhicules, analyse des locations, suivi des clients).
+Notre mission a été d'explorer et d'interroger une base de données existante pour répondre aux besoins concrets de l'entreprise (gestion des stocks de véhicules, analyse des locations, suivi des clients).
 
 ##  Notre trinôme
 Bien que ce dépôt retrace notre avancement, nous avons réalisé ce travail en collaboration avec :
