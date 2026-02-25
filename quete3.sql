@@ -3,7 +3,7 @@
 -- Notions : JOIN / clés étrangères
 -- =====================================================
 
--- 1️⃣ Locations avec le nom et prénom du client
+--  Locations avec le nom et prénom du client
 SELECT 
     l.id_location,
     l.date_debut,
@@ -16,7 +16,7 @@ JOIN client c
 
 --------------------------------------------------------
 
--- 2️⃣ Locations avec la marque et le modèle du véhicule
+--  Locations avec la marque et le modèle du véhicule
 SELECT 
     l.id_location,
     l.date_debut,
@@ -29,7 +29,7 @@ JOIN vehicule v
 
 --------------------------------------------------------
 
--- 3️⃣ Station de départ et station d’arrivée
+--  Station de départ et station d’arrivée
 SELECT 
     l.id_location,
     s_depart.nom AS station_depart,
